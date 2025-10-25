@@ -10,8 +10,8 @@ if numbers == "":
       print("Пожалуста введите хоть что-то,если вы это читаете вернитесь к этой задаче когда научетесь писать")
 else:
  answer = len(numbers) * 2
- print(f"Число всех положительных и отрицательных чисел: {answer}")
- print("")
+ print(f"Число всех положительных чисел: {answer}")
+ print(f"Число всех отрицательных чисел: {answer}")
 # ----------------------------------------------------------------------------------------------------------------------
 # 3 задание
 import random
@@ -22,7 +22,7 @@ if choice == 0:
 else:
  for i in range(choice):
        number = random.randint(1,31)
-int(list_of_numbers.append(number))
-if list_of_numbers % 2 != 0 and list_of_numbers % 3 == 0:
-       answer_1 = list_of_numbers % 3
-       print(f"Всего нечётных чисел кртные 3: {answer_1}")
+.      list_of_numbers.append(number)
+.      if list_of_numbers % 2 != 0 and list_of_numbers % 3 == 0:
+         list_of_numbers = list_of_numbers + 1
+         print(f"Всего нечётных чисел кртные 3: {list_of_numbers}")
